@@ -7,8 +7,13 @@ interface AnyPropsInterface {
 
 const Any: React.FC<AnyPropsInterface> = (props) => {
   const { display, children } = props;
-  // TODO: Handler index out of bounds
-  return Children.toArray(children)[display] as React.ReactElement;
+  const elements = Children.toArray(children);
+
+  if (display >= elements.length) {
+    throw new Error("Element index out of bounds.");
+  }
+
+  return elements[display] as React.ReactElement;
 };
 
 export default Any;
