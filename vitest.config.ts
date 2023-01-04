@@ -8,7 +8,8 @@ export default mergeConfig(
     test: {
       include: ["lib/**/*.{test,spec}.{ts,tsx}"],
       exclude: [...configDefaults.exclude, "packages/template/*"],
-      environment: "jsdom"
+      environment: "jsdom",
+      setupFiles: "./tests/setup.ts"
     }
   })
 );
