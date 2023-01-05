@@ -9,7 +9,7 @@ export default mergeConfig(
       include: ["lib/**/*.{test,spec}.{ts,tsx}"],
       exclude: [...configDefaults.exclude, "packages/template/*"],
       environment: "jsdom",
-      setupFiles: "./tests/setup.ts"
+      setupFiles: "react-testing-library.setup.ts"
     }
   })
 );
