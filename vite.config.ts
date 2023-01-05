@@ -6,8 +6,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "lib/main.ts"),
-      name: "event-manager",
-      fileName: (format) => `event-manager.${format}.js`
+      name: "react-logical-components",
+      fileName: (format) => `react-logical-components.${format}.js`
     }
   },
   plugins: [
