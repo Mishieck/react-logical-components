@@ -1,8 +1,19 @@
 {
   "name": "react-logical-components",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-logical-components.umd.js",
+  "types": "./dist/react-logical-components.es.d.ts",
+  "module": "./dist/react-logical-components.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-logical-components.es.js",
+      "require": "./dist/react-logical-components.umd.js"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
