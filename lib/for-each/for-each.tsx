@@ -27,4 +27,4 @@ const ForEach = <DataInterface extends Object>(
 };
 
 export default ForEach;
-export type { ForEachPropsInterface };
+export type { ForEachPropsInterface, RenderComponentType };
