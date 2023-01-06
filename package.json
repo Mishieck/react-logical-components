@@ -25,7 +25,13 @@
     "type": "git",
     "url": "git+https://github.com/Mishieck/react-logical-components.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "component-library",
+    "logical-components",
+    "jsx-logic",
+    "typescript"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
