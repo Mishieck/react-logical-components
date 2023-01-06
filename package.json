@@ -32,8 +32,8 @@
     "jsx-logic",
     "typescript"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Mishieck Mwale",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mishieck/react-logical-components/issues"
   },
