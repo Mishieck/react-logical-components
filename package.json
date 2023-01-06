@@ -1,5 +1,5 @@
 {
-  "name": "react-logical-components",
+  "name": "@web-deps/react-logical-components",
   "version": "0.1.0",
   "description": "A JavaScript/TypeScript component library for handling JSX logic in React. The library increases code readability.",
   "files": [
