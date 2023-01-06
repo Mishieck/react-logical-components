@@ -79,7 +79,7 @@ yarn add react-logical-components
 <ul>
   <ForEach
     data={["Item 1", "Item 2", "Item 3"]}
-    renderItem={(item, index) => <li key={String(index)}>{item}</li>}
+    renderComponent={(item, index) => <li key={String(index)}>{item}</li>}
   />
 </ul>
 ```
