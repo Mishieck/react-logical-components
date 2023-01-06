@@ -32,7 +32,11 @@
     "jsx-logic",
     "typescript"
   ],
-  "author": "Mishieck Mwale",
+  "author": {
+    "name": "Mishieck Mwale",
+    "email": "mishieckdev@gmail.com",
+    "url": "https://mishieckdev.netlify.app"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Mishieck/react-logical-components/issues"
