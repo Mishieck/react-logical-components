@@ -7,13 +7,13 @@ A component library used to handle common JSX logic like conditional rendering a
 ### NPM
 
 ```bash
-npm i react-logical-components
+npm i @web-deps/react-logical-components
 ```
 
 ### Yarn
 
 ```bash
-yarn add react-logical-components
+yarn add @web-deps/react-logical-components
 ```
 
 ## Components
