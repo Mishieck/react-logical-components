@@ -1,0 +1,60 @@
+{
+  "name": "@web-deps/react-logical-components",
+  "version": "0.1.0",
+  "description": "A JavaScript/TypeScript component library for handling JSX logic in React. The library increases code readability.",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-logical-components.umd.js",
+  "types": "./dist/react-logical-components.es.d.ts",
+  "module": "./dist/react-logical-components.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/react-logical-components.es.js",
+      "require": "./dist/react-logical-components.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mishieck/react-logical-components.git"
+  },
+  "keywords": [
+    "react",
+    "component-library",
+    "logical-components",
+    "jsx-logic",
+    "typescript"
+  ],
+  "author": {
+    "name": "Mishieck Mwale",
+    "email": "mishieckdev@gmail.com",
+    "url": "https://mishieckdev.netlify.app"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Mishieck/react-logical-components/issues"
+  },
+  "homepage": "https://github.com/Mishieck/react-logical-components#readme",
+  "packageManager": "yarn@3.6.1",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/enzyme": "^3.10.13",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "@vitest/coverage-c8": "^0.33.0",
+    "jsdom": "^22.1.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.6",
+    "vite-plugin-dts": "^3.3.1",
+    "vitest": "^0.33.0"
+  }
+}
