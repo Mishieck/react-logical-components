@@ -8,6 +8,15 @@ export default defineConfig({
       entry: path.resolve(__dirname, "lib/main.ts"),
       name: "react-logical-components",
       fileName: (format) => `react-logical-components.${format}.js`
+    },
+    rollupOptions: {
+      external: ["react", "react-dom"],
+      output: {
+        globals: {
+          react: "React",
+          "react-dom": "ReactDOM"
+        }
+      }
     }
   },
   plugins: [
